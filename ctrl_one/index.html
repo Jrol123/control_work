@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Control work</title>
+</head>
+<body>
+<header>
+	<h1>Title of Page</h1>
+	<nav>
+		<a href="#top">Cow1</a>
+		<a href="#">Cow2</a>
+		<a href="#bottom">Cow3</a>
+	</nav>
+</header>
+<aside>
+	<p>Paragraph 1</p>
+	<p>Paragraph 2</p>
+</aside>
+<main>
+	<section>
+		<article>
+			<header><h2>Title of Article</h2></header>
+			<p>Some text</p>
+			<footer>Footer of article</footer>
+		</article>
+		<article>
+			<header><h2>Title of Article</h2></header>
+			<p>Some text</p>
+			<footer>Footer of article</footer>
+		</article>
+	</section>
+	<table>
+		<thead>
+			<tr>
+				<th colspan="2"></th>
+				<th>текст</th>
+				<th>текст</th>
+				<th>текст</th>
+				<th>текст</th>
+				<th>текст</th>
+				<th>текст</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td colspan=2 rowspan="4">Текст</td>
+				<td>текст</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>текст</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>текст</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>текст</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td colspan="1" rowspan="4">Текст</td>
+				<td rowspan="2">текст</td>
+				<td>текст</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>текст</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td rowspan="2">текст</td>
+				<td>текст</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>текст</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td colspan="2">текст</td>
+				<td>текст</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>текст + <a href="#top">ссылка</a></td>
+			</tr>
+		</tbody>
+	</table>
+<!--	11-й-->
+	<form>
+		<fieldset>
+			<legend>Контактная информация</legend>
+			<label>Имя <input type="text" name="name" value="barcode"></label>
+			<br>
+			<label>Телефон <input type="tel" name="telephone" value="+7"></label>
+			<br>
+			<label>Email <input type="email" value="*****@**.**"></label>
+		</fieldset>
+		<fieldset>
+			<legend>Персональная информация</legend>
+			<label>Возраст <input type="number" value="19"></label>
+			<br>
+			<label>
+				Пол
+				<select name="sex">
+					<option value="" disabled selected>Выберите ваш пол</option>
+					<option value="m">Мужчина</option>
+					<option value="f">Женщина</option>
+				</select>
+			</label>
+			<br>
+			<label>
+				Перечислите личные качества
+				<textarea>Миллионер, плейбой, филантроп
+				</textarea>
+			</label>
+		</fieldset>
+		<fieldset>
+			<legend>Выберите ваших любимых животных</legend>
+			<table cellpadding="5">
+				<tbody>
+				<tr>
+					<td>
+						<input type="checkbox" id="zebra">
+						<label for="zebra">Зебра</label>
+					</td>
+					<td>
+						<input type="checkbox" id="cat">
+						<label for="cat">Кот</label>
+					</td>
+					<td>
+						<input type="checkbox" id="snake">
+						<label for="snake">Анаконда</label>
+					</td>
+					<td>
+						<input type="checkbox" id="human">
+						<label for="human">Человек</label>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<input type="checkbox" id="elephant">
+						<label for="elephant">Слон</label>
+					</td>
+					<td>
+						<input type="checkbox" id="antelope">
+						<label for="antelope">Антилопа</label>
+					</td>
+					<td>
+						<input type="checkbox" id="pigeon">
+						<label for="pigeon">Голубь</label>
+					</td>
+					<td>
+						<input type="checkbox" id="crab">
+						<label for="crab">Краб</label>
+					</td>
+				</tr>
+				</tbody>
+			</table>
+		</fieldset>
+	</form>
+	
+</main>
+<footer>
+	Footer of page
+</footer>
+</body>
+</html>
